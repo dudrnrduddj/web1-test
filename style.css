@@ -1,9 +1,9 @@
         body {
+            background-attachment: fixed;
             background-image: url("신문용지\ 배경.jpg");
             background-color: #fdd1d1;
             background-repeat: no-repeat;
             background-size: cover;
-            height:100vh;
             margin:auto;
             font-family:'Times New Roman', Georgia,  Times, serif;        
         }        
@@ -141,6 +141,7 @@
         @media(min-width:0px){
             body{
                 width:1050px;
+                background-attachment:unset;
             }
         }
 
