@@ -2,6 +2,7 @@
             background-image: url("신문용지\ 배경.jpg");
             background-color: #fdd1d1;
             background-repeat: no-repeat;
+            background-size: cover;
             margin:auto;
             margin-top:30px;
             margin-bottom:30px;
@@ -140,24 +141,7 @@
         @media(min-width:0px){
             body{
                 width:1050px;
+                height:100%
             }
         }
-        @media(min-width:1050px){
-            body{
-                background-position: 50% 50%;
-                background-size:100% 100%;
 
-            }
-        }
-        @media screen and (max-width:800px) {
-            /* 모바일 */
-            body{
-                width:100%;
-                margin-right:10px;
-                margin-left:10px;
-                margin-top:50px;
-                margin-bottom:0px;
-                height:100%;
-                
-            }
-        }
