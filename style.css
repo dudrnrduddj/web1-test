@@ -7,7 +7,7 @@
             margin-top:30px;
             margin-bottom:30px;
             width:70%;
-            font-family:Georgia, 'Times New Roman', Times, serif;        
+            font-family:'Times New Roman', Georgia,  Times, serif;        
         }        
 
         h1{
@@ -43,7 +43,7 @@
         #grid{
             display:grid;
             grid-template-columns: 1fr 1fr;
-            grid-template-rows: 40px 40px 1fr 1fr;
+            grid-template-rows: 40px 40px 800px 1fr;
 
             grid-template-areas: 
                 'e e'
@@ -143,3 +143,4 @@
                 width:1050px;
             }
         }
+
