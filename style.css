@@ -1,0 +1,145 @@
+        body {
+            background-image: url("신문용지\ 배경.jpg");
+            background-color: #fdd1d1;
+            background-repeat: no-repeat;
+            background-size:cover;
+            margin:auto;
+            margin-top:30px;
+            margin-bottom:30px;
+            width:70%;
+            font-family:Georgia, 'Times New Roman', Times, serif;        
+        }        
+
+        h1{
+            text-align: center;
+            font-size:50px;
+            margin:0;
+            padding: 20px;
+        }
+        ol{
+            width:200px;
+            padding:30px;
+            margin:0px;
+        }
+        a:link{
+            text-decoration: none;
+            color:black;
+        }
+        a:hover{
+            color:gray;
+        }
+        #h1{
+            color:black;
+        }
+        h3{
+            font-size: 22px;
+        }
+        h4{
+            font-size: 35px;
+            text-align: center;
+            margin-top:5px;
+        }
+
+        #grid{
+            display:grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 40px 40px 1fr 1fr;
+
+            grid-template-areas: 
+                'e e'
+                'a a'
+                'b b'
+                'c d';
+        }
+        #list{
+            grid-area:a;
+            border-top:3px black solid;
+            text-align: center;
+        }
+        #list ul{
+            list-style: none;
+            display:inline-block;
+            text-align: left;
+            padding-left:0px;
+            margin:0px;
+        }
+        #list li{
+            float:left;
+            padding:15px;
+            text-align:center;
+            padding-top:8px;
+        }
+        #video{
+            grid-area:b;
+            border-top:5px black solid;
+            border-right:5px black solid;
+            border-left:5px black solid;
+            padding:30px;
+            padding-top:0px;
+        }
+        #video .date{
+            font-size:30px;
+            text-align:center;
+            margin:0px;
+        }
+        #image{
+            grid-area:c;
+            border-left:5px black solid;
+            border-bottom:5px black solid;
+            border-right:5px black solid;
+            padding:15px;
+            padding-top:0px;
+
+        }
+        #image-grid{
+            display:grid;
+            grid-template-rows: 50px 30px auto;
+            text-align: center;
+        }
+        #image-grid .h2{
+            background-color:black;
+            color: white;
+            display:block;
+            font-size:30px;
+            
+        }
+        #image-grid .p{
+            border-top:5px black solid;
+            border-bottom:5px black solid;
+            margin-top:0px;
+            font-size:13px;
+        }
+        #text{
+            grid-area:d;
+            border-bottom:5px black solid;
+            border-right:5px black solid;
+        }
+        #text-grid{
+            display:grid;
+            grid-template-rows:50px 50px auto;
+        }
+        .title-question-text{
+            font-size:20px;
+            text-align: center;
+            padding-top:15px;
+        }
+        .text-grid-title{
+            padding-left: 15px;
+            padding-right:15px;
+            border-top:5px black solid;
+        }
+        .text-grid-text{
+            padding-left: 15px;
+            padding-right:15px;
+        }
+        #Number{
+            grid-area:e;
+            font-size:25px;
+            text-align: right;
+        }
+
+        @media(min-width:0px){
+            body{
+                width:1050px;
+            }
+        }
