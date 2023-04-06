@@ -1,10 +1,9 @@
         body {
-            background-attachment: fixed;
             background-image: url("신문용지\ 배경.jpg");
             background-color: #fdd1d1;
             background-repeat: no-repeat;
-            background-size: cover;
-            margin:auto;
+            background-size: 100% 100%;
+            margin:auto; 
             font-family:'Times New Roman', Georgia,  Times, serif;        
         }        
 
@@ -48,8 +47,9 @@
                 'a a'
                 'b b'
                 'c d';
-            padding-bottom:30px;
-            padding-top:30px;
+            margin:auto;
+            width:80%;
+            min-width:990px;
         }
         #list{
             grid-area:a;
@@ -138,10 +138,15 @@
             text-align: right;
         }
 
-        @media(min-width:0px){
-            body{
-                width:1050px;
-                background-attachment:unset;
+
+        @media (max-width:550px){
+            #grid{
+            min-width: 98%;
+            margin:auto;
+
+            }
+            iframe{
+                height:300px;
+                width:100%;
             }
         }
-
