@@ -50,6 +50,7 @@
             margin:auto;
             width:80%;
             min-width:990px;
+            box-sizing: border-box;
         }
         #list{
             grid-area:a;
