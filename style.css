@@ -141,7 +141,7 @@
 
         @media (max-width:550px){
             #grid{
-            min-width: 98%;
+            min-width: 95vw;
             margin:auto;
 
             }
