@@ -139,9 +139,10 @@
         }
 
 
-        @media (max-width:550px){
+        @media (max-width:500px){
             #grid{
-            min-width: 95vw;
+            width: 95vw;
+            min-width:0;
             margin:auto;
 
             }
